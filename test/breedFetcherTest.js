@@ -1,5 +1,5 @@
 const fetchBreedDescription = require('../breedFetcher');
-const {assert} = require('chai');
+const { assert } = require('chai');
 
 describe('fetchBreedDescription', () => {
   it('returns a string description for a valid breed, via callback', (done) => {
